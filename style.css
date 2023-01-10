@@ -1,0 +1,109 @@
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(228, 227, 227);
+}
+
+#logo {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(88, 11, 155);
+    font-size: 50px;
+}
+
+#textoEncriptado {
+    display: flex;
+    width: 500px;
+    height: auto;
+    font-size: 40px;
+    margin-left: 50px;
+    outline: none;
+    border: 0;
+    background: none;
+}
+
+#textoDesencriptado {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 1rem;
+    font-size: 20px;
+    height: 620px;
+    width: 300px;
+}
+
+#fondo-textoDesencriptado {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    right: 25px;
+    top: 220px;
+}
+
+#parrafo-textoDesencriptado {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    top: 430px;
+    width: 200px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#botonEncriptar {
+    display: inline-flex;
+    position: relative;
+    left: 0;
+}
+
+#botonDesencriptar {
+    display: inline-flex;
+    position: relative;
+    left: 0;
+}
+
+#botonCopiar {
+    display: none;
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+    right: 40px;
+    font-size: 30px;
+    border: none;
+    border-radius: 1rem;
+    background: rgb(228, 227, 227);
+    text-align: center;
+    width: 250px;
+    padding-left: 80px;
+}
+
+#botonEncriptar,
+#botonDesencriptar {
+    display: inline-flex;
+    position: relative;
+    top: 400px;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 1rem;
+    background-color: blue;
+    font-style: italic;
+    color: rgb(228, 227, 227);
+    cursor: pointer;
+}
+
+#botonDesencriptar {
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
